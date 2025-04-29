@@ -19,5 +19,8 @@
     "react-hook-form": "^7.56.1",
     "vite": "^6.3.3",
     "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
   }
 }
