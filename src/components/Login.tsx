@@ -42,11 +42,12 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
     }
   };
 
-  const handleTabChange = (event: React.SyntheticEvent, newValue: boolean) => {
+  const handleTabChange = (_: React.SyntheticEvent, newValue: boolean) => {
     setIsRegistering(newValue);
     setError(null);
     reset();
   };
+  
 
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', minHeight: '100vh', p: 2 }}>
