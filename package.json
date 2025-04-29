@@ -21,6 +21,7 @@
     "yup": "^1.6.1"
   },
   "devDependencies": {
+    "@types/react-dom": "^19.1.2",
     "typescript": "^5.8.3"
   }
 }
